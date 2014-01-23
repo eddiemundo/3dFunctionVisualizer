@@ -1,4 +1,4 @@
-This project contains a simple and very rough 3D function graph visualizer. It's written in Scala, Java, and using Libgdx for the graphics. The purpose was because I wanted a way to visualize functions in Scala (instead of MATLAB) and to test libgdx.
+This project contains a simple and very rough 3D function graph visualizer. It's written in Scala, Java, and using Libgdx for the graphics. The purpose was because I wanted a way to visualize functions in Scala (instead of MATLAB) and to test Libgdx.
 
 To use it you'll want to go to common/src/main/scala/Libgdxtest.scala, modify the "func" value to whatever function you want to graph. Then do "sbt run/desktop" in the root of the multi-project. You can modify the bounding box of the graph by modifying "minX, maxX, minY, maxY, minZ, maxZ". lol
 
